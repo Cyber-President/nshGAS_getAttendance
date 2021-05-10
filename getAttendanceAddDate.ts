@@ -39,7 +39,7 @@ function getAttendees() {
     }
 
     // 更新日時を記入
-    var date = Utilities.formatDate( new Date(), 'Asia/Tokyo', 'yyyy/MM/dd HH:mm:ss');
+    const date = Utilities.formatDate( new Date(), 'Asia/Tokyo', 'yyyy/MM/dd HH:mm:ss');
     talkSheet.getRange("B4").setValue(date);
 }
 
